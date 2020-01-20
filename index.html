@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-	let number = prompt();
+	let number = prompt('Введите число', '999>');
 	alert(String(number).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1,'));
 </script>	
 </body>
